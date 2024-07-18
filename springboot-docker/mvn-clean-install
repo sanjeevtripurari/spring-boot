@@ -1,0 +1,70 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------< com.example:springboot-docker >--------------------
+[INFO] Building springboot-docker 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.3.2:clean (default-clean) @ springboot-docker ---
+[INFO] Deleting D:\Sanjeev\docker\springboot-docker\springboot-docker\target
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ springboot-docker ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ springboot-docker ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 1 source file with javac [debug parameters release 21] to target\classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ springboot-docker ---
+[INFO] skip non existing resourceDirectory D:\Sanjeev\docker\springboot-docker\springboot-docker\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ springboot-docker ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 1 source file with javac [debug parameters release 21] to target\test-classes
+[INFO] 
+[INFO] --- surefire:3.2.5:test (default-test) @ springboot-docker ---
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.example.springboot_docker.SpringbootDockerApplicationTests
+00:23:27.573 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.springboot_docker.SpringbootDockerApplicationTests]: SpringbootDockerApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+00:23:27.724 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.springboot_docker.SpringbootDockerApplication for test class com.example.springboot_docker.SpringbootDockerApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.1)
+
+2024-07-18T00:23:28.286+05:30  INFO 18948 --- [springboot-docker] [           main] c.e.s.SpringbootDockerApplicationTests   : Starting SpringbootDockerApplicationTests using Java 21.0.3 with PID 18948 (started by Madhavi in D:\Sanjeev\docker\springboot-docker\springboot-docker)
+2024-07-18T00:23:28.288+05:30  INFO 18948 --- [springboot-docker] [           main] c.e.s.SpringbootDockerApplicationTests   : No active profile set, falling back to 1 default profile: "default"
+2024-07-18T00:23:29.843+05:30  INFO 18948 --- [springboot-docker] [           main] c.e.s.SpringbootDockerApplicationTests   : Started SpringbootDockerApplicationTests in 1.939 seconds (process running for 3.151)
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.521 s -- in com.example.springboot_docker.SpringbootDockerApplicationTests
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] --- jar:3.4.2:jar (default-jar) @ springboot-docker ---
+[INFO] Building jar: D:\Sanjeev\docker\springboot-docker\springboot-docker\target\springboot-docker-0.0.1-SNAPSHOT.jar
+[INFO] 
+[INFO] --- spring-boot:3.3.1:repackage (repackage) @ springboot-docker ---
+[INFO] Attaching repackaged archive D:\Sanjeev\docker\springboot-docker\springboot-docker\target\springboot-docker-0.0.1-SNAPSHOT-exec.jar with classifier exec
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ springboot-docker ---
+[INFO] Installing D:\Sanjeev\docker\springboot-docker\springboot-docker\pom.xml to C:\Users\Madhavi\.m2\repository\com\example\springboot-docker\0.0.1-SNAPSHOT\springboot-docker-0.0.1-SNAPSHOT.pom
+[INFO] Installing D:\Sanjeev\docker\springboot-docker\springboot-docker\target\springboot-docker-0.0.1-SNAPSHOT.jar to C:\Users\Madhavi\.m2\repository\com\example\springboot-docker\0.0.1-SNAPSHOT\springboot-docker-0.0.1-SNAPSHOT.jar
+[INFO] Installing D:\Sanjeev\docker\springboot-docker\springboot-docker\target\springboot-docker-0.0.1-SNAPSHOT-exec.jar to C:\Users\Madhavi\.m2\repository\com\example\springboot-docker\0.0.1-SNAPSHOT\springboot-docker-0.0.1-SNAPSHOT-exec.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  9.449 s
+[INFO] Finished at: 2024-07-18T00:23:32+05:30
+[INFO] ------------------------------------------------------------------------
